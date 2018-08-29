@@ -1,0 +1,23 @@
+{
+  "name": "vortextangent/tectonic",
+  "description": "PHP Code Builder",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Anthony daCosta",
+      "email": "vortextangent@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "VortexTangent\\": "src/"
+    }
+  },
+  "require": {
+    "josegonzalez/dotenv": "^3.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.3"
+  }
+}
